@@ -52,10 +52,12 @@ span {
     display: block;
     color: #777;
 }
+
 figcaption {
     font-size: 0.8em;   
     color: #666;
 }
+
 .skip a{
     position: absolute;
     top: -40px;
