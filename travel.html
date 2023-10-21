@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Travel</title>
 </head>
 <body>
-    <a href = "#main">Skip to Main Content</a>
+    <div class="skip"><a href = "#main-content">Skip to Main Content</a></div>
 	<header>
 		<nav>
 			<ul>
@@ -15,34 +17,42 @@
 				<li ><a href = "recipes.html">Recipes</a></li>
 			</ul>
 		</nav>
-		<h1>Travel</h1>
+        <h1>Travel</h1>
 	</header>
    
-    <main id="main">
-        <div>
-            <h2>Yellowstone</h2>
+    <main id="main-content">
+        <div tabindex="0">
+            <h2 >Yellowstone</h2>
     
-            <img src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
-            <img src="images/yellowstone_cauldron.jpg" width = "400" alt="Bubbling cauldron">
+            <img src="images/yellowstone_cauldron.gif" alt="Bubbling cauldron.">
 
             <h3>Geographical Location: North America</h3>
             <p>Yellowstone is the first national park in the United States. It covers over 2.2 million acres, and provides an opportunity to see wildlife and explore geothermal areas.  In fact, Yellowstone contains about half the world's active geysers.</p>
             <p>These unique opportunities also bring out a lot of bad decisions among the tourists.  Every year visitors injure themselves or the wildlife by getting close to the animals.  You  can see examples of people making bad decisions by visiting <a href ="https://www.facebook.com/groups/yellowstonenationalparkinvasionoftheidiots/">Yellowstone National Park: Invasion of the Idiots</a>, <a href="https://www.instagram.com/touronsofyellowstone/?hl=en">Tourons of Yellowstone</a>, or  <a href="https://cowboystatedaily.com/">Cowboy State Daily</a>.</p>
 
             <h3>Photo Gallery</h3>
+            <div class="grid-container-three">
             <figure>
-                <img src="images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine">
+                <img src="images/yellowstone_travertine.JPG" alt="A large mound of multi-colored travertine">
                 <figcaption>Mammoth Hot Springs has a number of actively forming Travertine terraces.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground">
+                <img src="images/yellowstone_sunset.jpg" alt="Sunset over mountains with some charred trees in the foreground">
                 <figcaption>The drive to Lamar Valley requires some dangerous roads.  But the result is amazing sunset views.</figcaption>
             </figure>
 
 
+
+
             <figure>
-                <video width="200"  controls>
+                <img src="images/yellowstone_sulphur_springs.JPG" alt="A large spring with clouds of sulfur smoke rising from it.">
+                
+                <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
+            </figure>
+            </div>
+            <figure>
+                <video controls>
                     <source src="images/yellowstone_prism.MOV">
                     Your browser does not support the video tag.
                 </video>
@@ -51,188 +61,182 @@
 
 
             <figure>
-                <video width="200"  controls>
+                <video controls>
                     <source src="images/yellowstone_buffalo.MOV">
                     Your browser does not support the video tag.
                 </video>
                 <figcaption>The buffalo were so common along the roads in Yellowstone that our mantra became "If it ain't lickin the car, we aren't stopping."</figcaption>
             </figure>
-
-            <figure>
-                <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it.">
-                
-                <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
-            </figure>
             <!-- Colleen van Lent -->
         </div>
        
-        <div>
+        <div tabindex="0">
             <h2>Great Wall</h2>
     
-            <img src="images/greatwall_view.gif" width="400" alt="Distant Views of the Great Wall.">
-            <img src="images/greatwall_view.jpg" width = "400" alt="Distant Views of the Great Wall">
+            <img src="images/greatwall_view.gif" alt="Distant Views of the Great Wall.">
 
             <h3>Geographical Location: Asia</h3>
             <p>The Great Wall of China is a world-famous landmark and symbol of China's rich history. Stretching thousands of miles, it stands as a testament to the engineering and architectural prowess of ancient China.</p>
             <p><a href="https://en.wikipedia.org/wiki/Great_Wall_of_China#History">The construction of the Great Wall</a> began over two thousand years ago during the 7th century BC. It served as a defensive fortification to protect Chinese states from northern invasions. Over the centuries, various dynasties contributed to its expansion and maintenance.</p>
 
             <h3>Photo Gallery</h3>
+            <div class="grid-container-three">
             <figure>
-                <img src="images/greatwall_watchtower.jpg" width = "200" alt="Ancient watchtower on the Great Wall">
+                <img src="images/greatwall_watchtower.jpg" alt="Ancient watchtower on the Great Wall">
                 <figcaption>An ancient watchtower along the Great Wall.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/greatwall_climbing.jpg" width = "200" alt="Climbing the Great Wall.">
+                <img src="images/greatwall_climbing.jpg" alt="Climbing the Great Wall.">
                 <figcaption>Climbing the Great Wall.</figcaption>
             </figure>
-
-
             <figure>
-                <video width="200"  controls>
-                    <source src="images/The Great Wall in China from Above.mp4">
+                <img src="images/greatwall_crowdy.jpg" alt="A crowded day on the Great Wall.">
+
+                <figcaption>A crowded day on the Great Wall.</figcaption>
+            </figure>
+            </div>
+            <figure>
+                <video controls>
+                    <source src="images/the_great_wall_in_china_from_above.mp4">
                     Your browser does not support the video tag.
                 </video>
                 <figcaption>The Great Wall in China from Above</figcaption>
             </figure>
-
-
-            <figure>
-                <img src="images/greatwall_crowdy.jpg" width = "200" alt="A crowded day on the Great Wall.">
-
-                <figcaption>A crowded day on the Great Wall.</figcaption>
-            </figure>
-
         </div>
-        <div>
+        <div tabindex="0">
             <h2>The Alps</h2>
 
-            <img src="images/alps_mountains.png" width="400" alt="Scenic view of the Alps">
-            <img src="images/alps_sunset.jpg" width="400" alt="Alpine sunset">
+            <img src="images/alps_mountains.png" alt="Scenic view of the Alps">
+            <img src="images/alps_sunset.jpg" alt="Alpine sunset">
         
             <h3>Geographical Location: Europe</h3>
             <p>The Alps are one of the most iconic mountain ranges in Europe, spanning multiple countries including France, Switzerland, Italy, Austria, and more. They offer breathtaking landscapes, outdoor adventures, and a rich cultural heritage.</p>
             <p>The region is a paradise for hikers, skiers, and nature enthusiasts, boasting a wide range of activities and natural wonders.</p>
         
             <h3>Photo Gallery</h3>
+            <div class="grid-container-three">
             <figure>
-                <img src="images/alps_lake.jpg" width="200" alt="Crystal-clear lake in the Alps">
+                <img src="images/alps_lake.jpg" alt="Crystal-clear lake in the Alps">
                 <figcaption>A crystal-clear alpine lake surrounded by towering peaks.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/alps_hiking.jpg" width="200" alt="Hiking in the Alps">
+                <img src="images/alps_hiking.jpg" alt="Hiking in the Alps">
                 <figcaption>Exploring picturesque hiking trails in the Alps.</figcaption>
             </figure>
-        
+
             <figure>
-                <video width="200" controls>
+                <img src="images/alps_village.jpeg" alt="Charming Alpine village">
+                <figcaption>Discovering a charming alpine village nestled in the mountains.</figcaption>
+            </figure>
+            </div>
+            <figure>
+                <video controls>
                     <source src="images/alps_glacier.mp4">
                     Your browser does not support the video tag.
                 </video>
                 <figcaption>A mesmerizing view of an Alpine glacier.</figcaption>
             </figure>
-        
-            <figure>
-                <img src="images/alps_village.jpeg" width="200" alt="Charming Alpine village">
-                <figcaption>Discovering a charming alpine village nestled in the mountains.</figcaption>
-            </figure>
         </div>
-        <div>
+        <div tabindex="0">
             <h2>Serengeti National Park</h2>
 
-            <img src="images/serengeti_wildlife.jpg" width="400" alt="Serengeti wildlife">
-            <img src="images/serengeti_sunset.jpg" width="400" alt="Serengeti sunset">
+            <img src="images/serengeti_wildlife.jpg" alt="Serengeti wildlife">
+            <img src="images/serengeti_sunset.jpg" alt="Serengeti sunset">
         
             <h3>Geographical Location: Africa</h3>
             <p>Serengeti National Park is a world-renowned wildlife sanctuary located in Tanzania, East Africa. It is famous for its vast savannahs, diverse wildlife, and the annual Great Migration of wildebeests and zebras.</p>
             <p>The park offers visitors the opportunity to witness the incredible diversity of African wildlife, including lions, elephants, giraffes, and countless other species.</p>
         
             <h3>Photo Gallery</h3>
+            <div class="grid-container-three">
             <figure>
-                <img src="images/serengeti_lion.jpg" width="200" alt="Majestic lion in Serengeti">
+                <img src="images/serengeti_lion.jpg" alt="Majestic lion in Serengeti">
                 <figcaption>A majestic lion basking in the Serengeti sun.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/serengeti_giraffe.jpg" width="200" alt="Graceful giraffe in Serengeti">
+                <img src="images/serengeti_giraffe.jpg" alt="Graceful giraffe in Serengeti">
                 <figcaption>A graceful giraffe roaming the Serengeti plains.</figcaption>
             </figure>
-        
+
             <figure>
-                <video width="200" controls>
+                <img src="images/serengeti_savannah.jpg" alt="Endless savannahs of Serengeti">
+                <figcaption>The endless savannahs of Serengeti, a stunning natural wonder.</figcaption>
+            </figure>
+            </div>
+            <figure>
+                <video controls>
                     <source src="images/serengeti_great_migration.mp4">
                     Your browser does not support the video tag.
                 </video>
                 <figcaption>The awe-inspiring Great Migration of wildebeests and zebras in the Serengeti.</figcaption>
             </figure>
-        
-            <figure>
-                <img src="images/serengeti_savannah.jpg" width="200" alt="Endless savannahs of Serengeti">
-                <figcaption>The endless savannahs of Serengeti, a stunning natural wonder.</figcaption>
-            </figure>
         </div>
 
-        <div>
+        <div tabindex="0">
             <h2>Machu Picchu</h2>
         
-            <img src="images/machu_picchu1.jpg" width="400" alt="Close scenic view of Machu Picchu">
-            <img src="images/machu_picchu2.jpg" width="400" alt="Distant scenic view of Machu Picchu">
+            <img src="images/machu_picchu1.jpg" alt="Close scenic view of Machu Picchu">
+            <img src="images/machu_picchu2.jpg" alt="Distant scenic view of Machu Picchu">
         
             <h3>Geographical Location: South America</h3>
             <p>Machu Picchu is located in Peru and is one of the most iconic archaeological sites in the world. It is perched high in the Andes Mountains and offers breathtaking views of ancient Inca architecture.</p>
             <p>Visitors to Machu Picchu have the opportunity to explore this historical wonder and immerse themselves in the rich history of the Inca civilization.</p>
         
             <h3>Photo Gallery</h3>
+            <div class="grid-container">
             <figure>
-                <img src="images/machu_picchu_temple.jpg" width="200" alt="Temple of the Sun in Machu Picchu">
+                <img src="images/machu_picchu_temple.jpg" alt="Temple of the Sun in Machu Picchu">
                 <figcaption>The Temple of the Sun is one of the remarkable structures in Machu Picchu.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/machu_picchu_hikers.jpg" width="200" alt="Hikers on the Inca Trail with Machu Picchu in the background">
+                <img src="images/machu_picchu_hikers.jpg" alt="Hikers on the Inca Trail with Machu Picchu in the background">
                 <figcaption>Hikers on the Inca Trail are rewarded with stunning views of Machu Picchu.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/machu_picchu_llama.jpg" width="200" alt="Llama roaming in Machu Picchu">
+                <img src="images/machu_picchu_llama.jpg" alt="Llama roaming in Machu Picchu">
                 <figcaption>Llamas are a common sight in Machu Picchu and add to the unique atmosphere of the site.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/machu_picchu_panorama.jpg" width="200" alt="Panoramic view of Machu Picchu">
+                <img src="images/machu_picchu_panorama.jpg" alt="Panoramic view of Machu Picchu">
                 <figcaption>Take in the panoramic beauty of Machu Picchu from various viewpoints.</figcaption>
             </figure>
+            </div>
         </div>
 
-        <div>
+        <div tabindex="0">
             <h2>Great Barrier Reef</h2>
         
-            <img src="images/great_barrier_reef1.jpg" width="400" alt="Aerial view of the Great Barrier Reef">
-            <img src="images/great_barrier_reef2.jpg" width="400" alt="Coral formations in the Great Barrier Reef">
+            <img src="images/great_barrier_reef1.jpg" alt="Aerial view of the Great Barrier Reef">
+            <img src="images/great_barrier_reef2.jpg" alt="Coral formations in the Great Barrier Reef">
         
             <h3>Geographical Location: Oceania</h3>
             <p>The Great Barrier Reef is located off the coast of Australia and is the world's largest coral reef system. It stretches over 2,300 kilometers and is renowned for its stunning marine biodiversity.</p>
             <p>Visitors to the Great Barrier Reef have the opportunity to explore vibrant coral formations, encounter a diverse range of marine species, and enjoy various water activities such as snorkeling and diving.</p>
         
             <h3>Photo Gallery</h3>
+            <div class="grid-container-three">
             <figure>
-                <img src="images/great_barrier_reef_fish.jpg" width="200" alt="Colorful fish in the Great Barrier Reef">
+                <img src="images/great_barrier_reef_fish.jpg" alt="Colorful fish in the Great Barrier Reef">
                 <figcaption>Discover the colorful and diverse marine life that calls the Great Barrier Reef home.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/great_barrier_reef_snorkeling.jpg" width="200" alt="Snorkelers exploring the reef">
+                <img src="images/great_barrier_reef_snorkeling.jpg" alt="Snorkelers exploring the reef">
                 <figcaption>Snorkeling is a popular activity for visitors to get up close to the beauty of the Great Barrier Reef.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/great_barrier_reef_sunrise.jpg" width="200" alt="Sunrise over the Great Barrier Reef">
+                <img src="images/great_barrier_reef_sunrise.jpg" alt="Sunrise over the Great Barrier Reef">
                 <figcaption>Witness stunning sunrises and sunsets over the tranquil waters of the reef.</figcaption>
             </figure>
+            </div>
         </div>
-        
-
     </main>
 </body>
 </html>

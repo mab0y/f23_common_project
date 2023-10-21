@@ -1,0 +1,111 @@
+@media (prefers-reduced-motion: reduce) {
+    img[src$=".gif"] {
+        display: none;
+    }
+}
+
+:focus {
+    outline: 2px solid; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 5px;
+    background-color: #f8f8f8; 
+    line-height: 1.4; 
+}
+
+h1, h2, h3, p, ul, ol, span, figcaption {
+    margin-bottom: 15px; 
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    color: navy;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px; 
+    text-align: justify; 
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+
+ul li, ol li {
+    font-size: 16px;
+}
+
+span {
+    font-size: 16px;
+    display: block;
+    color: #777;
+}
+figcaption {
+    font-size: 0.8em;   
+    color: #666;
+}
+.skip a{
+    position: absolute;
+    top: -40px;
+}
+
+.skip a:focus{
+    position: absolute;
+    top: 20px
+}
+
+nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+nav a:hover, nav a:focus {
+    color: #fff; 
+    background-color: navy; 
+
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav .active a {
+    font-weight: bold;
+    color: navy;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.grid-container-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+video{
+    width: 100%;
+}
